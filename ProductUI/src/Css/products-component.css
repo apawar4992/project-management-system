@@ -1,0 +1,17 @@
+.filter-dropdown{
+    display: flex;
+    align-items: center;
+    background-color: #d0caca;
+  }
+
+.category-section{
+    width: 420px;
+}
+
+.subcategory-section{
+    width: 420px;
+}
+
+.product-section{
+    width: 420px;
+}

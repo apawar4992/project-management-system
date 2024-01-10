@@ -1,0 +1,105 @@
+.home-container{
+
+}
+.menu-container{
+    flex-direction: column;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.05);
+    border: 1px solid #e9ebee;
+  }
+  
+  .navbar-container{
+    /* display: flex; */
+    /* flex-direction: row;
+    flex-wrap: nowrap; */
+    padding: 0;
+    border: 1px solid transparent;
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color:rgba(0, 0, 0, 0.4) ;
+  }
+
+  .navbar-right{
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+    background-color: burlywood;
+    margin-left: 0px;
+    width: 100%;
+   }
+  
+   .navbar-right__left{
+    display: flex;
+    align-items: center;
+    width: 50%;
+   }
+   .navbar-right__right{
+     display: flex;
+     align-items: center;
+     width: 50%;
+  }
+
+   .navbar-right-login__btn{
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: beige;
+    margin: 15px 5px 15px 5px;
+   }
+   
+.account-profile{
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: beige;
+    margin: 15px 5px 15px 5px;
+   }
+  
+   .account-profile-items{
+      list-style-type: none;
+      width: 100px;
+      border-radius: 10px;
+   }
+  
+   .account-profile-user-icon{
+     height: 40px;
+     width: 30px;
+   }
+  
+   .account-profile-icon{
+      display: flex;
+      align-items: center;
+   }
+   
+   .account-profile-items__profile {
+    text-decoration: none;
+    color: white;
+   }
+  
+   .disabled-profile{
+    text-decoration: none;
+    color: white;
+    cursor: default;
+  }
+  
+   .account-profile-items__logout {
+    text-decoration: none;
+    color: white;
+   }
+  
+   .account-profile-toggle-icon {
+    width: 10px; 
+    height: 10px;
+   }
+
+   .account-profile-container{
+    margin-left: 0;
+    padding: 0;
+    position: absolute;
+    opacity: 1;
+    transition-duration: 150ms;
+    background-color: rgba(0,0,0,.9);
+    border: 1px solid hsla(0,0%,100%,.15);
+    box-sizing: border-box;
+    color: #fff;
+    cursor: default;
+    font-size: 13px;
+    line-height: 21px;
+    border-radius: 10px;
+} 
