@@ -1,11 +1,11 @@
-import { Suspense } from 'react';
+import {lazy, Suspense } from 'react';
 import './App.css';
 import HomeComponent from './Components/HomeComponent';
-import LoginUser from './Components/LoginUser';
-import RegisterUser from './Components/RegisterUser';
-import UserProfile from './Components/ProfileComponent';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import About from './Components/AboutComponent';
+const About = lazy(() => import('./Components/AboutComponent'));
+const LoginUser = lazy(() => import('./Components/LoginUser'));
+const RegisterUser = lazy(() => import('./Components/RegisterUser'));
+const UserProfile = lazy(() => import('./Components/ProfileComponent'));
 
 function App() {
   return (
