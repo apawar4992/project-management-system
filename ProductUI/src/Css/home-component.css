@@ -29,26 +29,31 @@
    .navbar-right__left{
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 100%;
+    justify-content: space-between;
    }
    .navbar-right__right{
      display: flex;
      align-items: center;
-     width: 50%;
   }
 
    .navbar-right-login__btn{
-    border-radius: 10px;
+    border-radius: 8px;
     text-decoration: none;
     background-color: beige;
     margin: 15px 5px 15px 5px;
+    padding: 7px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    letter-spacing: 1px;
    }
    
 .account-profile{
     border-radius: 10px;
     text-decoration: none;
-    background-color: beige;
     margin: 15px 5px 15px 5px;
+    cursor: pointer;
    }
   
    .account-profile-items{
@@ -102,4 +107,5 @@
     font-size: 13px;
     line-height: 21px;
     border-radius: 10px;
+    right: 0px 
 } 

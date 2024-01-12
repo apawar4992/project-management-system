@@ -35,7 +35,8 @@ const HomeComponent = () => {
            <div className='navbar-container'>
               <div className='navbar-right'>
                 <div className='navbar-right__left'>
-                  <Link to="/Home" style={{ visibility: 'visible', width: 315 }}>
+                    <div>
+                  <Link to="/Home" style={{ visibility: 'visible', display: 'inline-block'}}>
                        <button className='navbar-right-login__btn'>
                           Home
                        </button>
@@ -45,14 +46,13 @@ const HomeComponent = () => {
                           About
                        </button>
                    </Link>
-                   
+                   </div>
                    <div className='navbar-right__right'>
                    <Link to="/Login" style={{ visibility: isLoggedIn() ? 'hidden' : 'visible' }}>
                             <button className='navbar-right-login__btn'>
                                 Login
                             </button>
                    </Link>
-                   </div>
                    <div className='account-profile'>
                             <div onClick={() => toggleClass()} 
                             className='account-profile-icon'>
@@ -75,6 +75,7 @@ const HomeComponent = () => {
                                     </li>
                                 </ul>
                             </div>
+                   </div>
                    </div>
                    </div>
                </div>
